@@ -1,0 +1,166 @@
+/* Contenitore principale */
+#container {
+    margin: auto;
+    background-color: #fef7e2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Stili per i pulsanti generici */
+.bottone button {
+    background-color: #ffdf7e;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    width: 100px; /* Pulsanti laterali più piccoli */
+    height: 40px;
+    box-sizing: border-box;
+}
+
+/* Stili per il pulsante centrale 'SHOP' */
+.shop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.shop button {
+    background-color: #ffdf7e;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 80px;
+    border: none;
+    width: 180px; /* Pulsante centrale più grande */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+/* Icona all'interno del pulsante centrale 'SHOP' */
+.shop img {
+    position: absolute;
+    width: 34px;
+    height: 30px;
+    left: 25px; /* Allineamento icona a sinistra nel pulsante */
+}
+
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Contenitore principale */
+#container2 {
+    background-color: #fef7e2;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; /* Per far andare i prodotti su nuove righe se lo schermo è piccolo */
+}
+
+/* Ogni gruppo di elementi */
+.item {
+    display: flex;
+    flex-direction: column; /* Disposizione verticale degli elementi all'interno di ogni gruppo */
+    align-items: center;
+    width: 201px; /* Larghezza per ogni item per allinearsi con l'immagine */
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Stili per l'immagine */
+.foto img {
+    width: 100%; /* Adatta l'immagine alla larghezza del contenitore */
+    height: 130px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* Stili per il contenitore dei paragrafi */
+.paragrafo {
+    display: inline-flex; /* Disposizione orizzontale dei paragrafi */
+    gap: 10px; /* Distanza tra i paragrafi */
+    text-align: center;
+    font-size: medium;
+    margin: 10px 0;
+}
+
+.uno::first-line {
+    font-weight: bold;
+}
+
+/* Stile per il prezzo */
+.due {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 24px;
+}
+
+/* Stili per il bottone */
+.bottone button {
+    background-color: #ffdf7e;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+/* Contenitore principale */
+#container3 {
+    background-color: #fef7e2;
+    display: flex;
+    flex-wrap: wrap; /* Consente di andare su nuove righe su schermi stretti */
+    gap: 20px; /* Distanza tra l'immagine e il contenuto */
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center; /* Centra i contenuti su schermi stretti */
+    align-items: flex-start;
+}
+
+/* Stili per la sezione del titolo e paragrafo */
+.titolo {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Occupa lo spazio disponibile accanto all'immagine */
+    max-width: 600px; /* Limita la larghezza massima per una buona leggibilità su schermi larghi */
+}
+
+/* Titolo */
+.titolo h3 {
+    margin: 0; /* Rimuove margini inutili */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Paragrafo */
+.titolo p {
+    margin-top: 10px; /* Spazio tra il titolo e il paragrafo */
+    line-height: 1.6; /* Migliora la leggibilità */
+}
+
+/* Stili per l'immagine */
+#container3 img {
+    width: 100%; /* L'immagine occupa tutta la larghezza del contenitore su schermi stretti */
+    max-width: 353px; /* Limite massimo per evitare che diventi troppo grande */
+    height: auto; /* Mantiene le proporzioni */
+    border-radius: 10px;
+    align-self: center; /* Centra l'immagine su schermi stretti */
+}
